@@ -1,0 +1,37 @@
+1.Do the below programs in anonymous function & IIFE
+
+ a.Print odd numbers in an array
+  
+  var arr=[1,2,3,4];
+   var add=function(arr){
+  for(var i=0; i<arr.length; i++){
+  if(arr[i]%2!==0){
+  console.log(arr[i]);
+ }
+}
+}
+add(arr);
+ 
+
+3.Do the below programs in arrow functions
+
+  a.Print odd numbers in an array
+  
+  var arr=[1,2,3,4];
+  var odd=(arr)=>{
+  for(var i=0; i<arr.length; i++){
+ if(arr[i]%2!==0){
+  console.log(arr[i]);
+   }
+   }
+   }
+   odd(arr);
+
+ c.Sum of all numbers in an array
+
+  var n=[1,2,4];
+ 
+ var res=n.reduce((acc,cv)=>acc+cv);
+   console.log(res);
+
+
